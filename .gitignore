@@ -1,0 +1,22 @@
+# Keep only the main 16x16 experiment in the initial public repository.
+/quantum-py.ipynb
+/final-code-*-py.ipynb
+/*.pdf
+/*.pptx
+
+# Datasets and generated training artifacts.
+/archive/
+/gtsrb-german-traffic-sign/
+/checkpoints/
+/outputs/
+*.pt
+*.pth
+
+# Notebook and Python temporary files.
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+
+# Operating-system files.
+.DS_Store
+Thumbs.db
